@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS `BurpleDB`;
+
+CREATE DATABASE `BurpleDB`;
+
+USE `BurpleDB`;
+
+CREATE TABLE `users` (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(100) NOT NULL,
+    `username` VARCHAR(50) NOT NULL,
+    `password` VARCHAR(70) NOT NULL
+)

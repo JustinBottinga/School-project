@@ -1,0 +1,62 @@
+:root {
+    --achtergrond: #eeeeee;
+    --primairaccent: #9100cb;
+    --secondairaccent: #320146;
+    --wit: #ffffff;
+    --hoveraccent: #c231fc;
+}
+
+body {
+    background-color: var(--secondairaccent);
+    font-family: 'Courier New', monospace;
+}
+
+.login {
+    margin: auto;
+    width: 300px;
+    height: 600px;
+    background-color: var(--achtergrond);
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Input style */
+.loginInput {
+    background-color: var(--achtergrond);
+    padding: 0.3rem;
+    border-top: black;
+    border-right: black;
+    border-left: black;
+}
+
+.loginInput:hover {
+    background-color: var(--wit);
+}
+
+.loginInput:focus {
+    background-color: var(--wit);
+}
+
+.register {
+    margin: auto;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    width: 160px;
+    background-color: var(--wit);
+    border-radius: 5px;
+}
+
+#register {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+button {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--wit);
+}

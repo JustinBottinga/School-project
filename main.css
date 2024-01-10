@@ -1,0 +1,66 @@
+:root {
+    --achtergrond: #eeeeee;
+    --primairaccent: #9100cb;
+    --secondairaccent: #320146;
+    --wit: #ffffff;
+    --hoveraccent: #c231fc;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0px;
+}
+
+.navbar {
+    background-color: var(--primairaccent);
+    height: 80px;
+}
+
+.right {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.login {
+    padding: 0.5rem;
+    margin-top: 20px;
+    margin-right: 1rem;
+    background-color: var(--wit);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.loginbtn {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.login:hover {
+    opacity: 80%;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--primairaccent);
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#topGames {
+    display: grid;
+    grid-template-rows: 320px 320px 320px;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.divMain {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: flex-end;
+}
